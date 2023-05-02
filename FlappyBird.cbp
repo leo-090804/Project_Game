@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FlappyBird" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/FlappyBirdReborn" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../../SDL2/x86_64-w64-mingw32/include/SDL2" />
+					<Add directory="../../SDL2/x86_64-w64-mingw32-image/include/SDL2" />
+					<Add directory="../../SDL2/x86_64-w64-mingw32-mixer/include/SDL2" />
+					<Add directory="../../SDL2/x86_64-w64-mingw32-ttf/include/SDL2" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32 -lSDL2main" />
+					<Add option="-lSDL2" />
+					<Add option="-lSDL2_image" />
+					<Add option="-lSDL2_ttf" />
+					<Add option="-lSDL2_mixer" />
+					<Add directory="../../SDL2/x86_64-w64-mingw32/bin" />
+					<Add directory="../../SDL2/x86_64-w64-mingw32/lib" />
+					<Add directory="../../SDL2/x86_64-w64-mingw32-image/bin" />
+					<Add directory="../../SDL2/x86_64-w64-mingw32-image/lib" />
+					<Add directory="../../SDL2/x86_64-w64-mingw32-mixer/bin" />
+					<Add directory="../../SDL2/x86_64-w64-mingw32-mixer/lib" />
+					<Add directory="../../SDL2/x86_64-w64-mingw32-ttf/bin" />
+					<Add directory="../../SDL2/x86_64-w64-mingw32-ttf/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/FlappyBirdReborn" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="../SDL2/x86_64-w64-mingw32/include/SDL2" />
+			<Add directory="../SDL2/x86_64-w64-mingw32-image/include/SDL2" />
+			<Add directory="../SDL2/x86_64-w64-mingw32-mixer/include/SDL2" />
+			<Add directory="../SDL2/x86_64-w64-mingw32-ttf/include/SDL2" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main" />
+			<Add option="-lSDL2" />
+			<Add option="-lSDL2_image" />
+			<Add option="-lSDL2_ttf" />
+			<Add option="-lSDL2_mixer" />
+			<Add directory="../SDL2/x86_64-w64-mingw32/bin" />
+			<Add directory="../SDL2/x86_64-w64-mingw32/lib" />
+			<Add directory="../SDL2/x86_64-w64-mingw32-image/bin" />
+			<Add directory="../SDL2/x86_64-w64-mingw32-image/lib" />
+			<Add directory="../SDL2/x86_64-w64-mingw32-mixer/bin" />
+			<Add directory="../SDL2/x86_64-w64-mingw32-mixer/lib" />
+			<Add directory="../SDL2/x86_64-w64-mingw32-ttf/bin" />
+			<Add directory="../SDL2/x86_64-w64-mingw32-ttf/lib" />
+		</Linker>
+		<Unit filename="background.cpp" />
+		<Unit filename="background.h" />
+		<Unit filename="base.cpp" />
+		<Unit filename="base.h" />
+		<Unit filename="bird.cpp" />
+		<Unit filename="bird.h" />
+		<Unit filename="coin.cpp" />
+		<Unit filename="coin.h" />
+		<Unit filename="flappy_bird.cpp" />
+		<Unit filename="flappy_bird.h" />
+		<Unit filename="flash.cpp" />
+		<Unit filename="flash.h" />
+		<Unit filename="icon.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="indicator.cpp" />
+		<Unit filename="indicator.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="medal.cpp" />
+		<Unit filename="medal.h" />
+		<Unit filename="message.cpp" />
+		<Unit filename="message.h" />
+		<Unit filename="newhs.cpp" />
+		<Unit filename="newhs.h" />
+		<Unit filename="pipe.cpp" />
+		<Unit filename="pipe.h" />
+		<Unit filename="saves.cpp" />
+		<Unit filename="saves.h" />
+		<Unit filename="scoreboard.cpp" />
+		<Unit filename="scoreboard.h" />
+		<Unit filename="sdl_engine.cpp" />
+		<Unit filename="sdl_engine.h" />
+		<Unit filename="sfx.cpp" />
+		<Unit filename="sfx.h" />
+		<Unit filename="text.cpp" />
+		<Unit filename="text.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
