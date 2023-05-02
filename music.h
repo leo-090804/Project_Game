@@ -1,5 +1,5 @@
-#ifndef SFX_H
-#define SFX_H
+#ifndef MUSIC_H
+#define MUSIC_H
 
 #include "sdl_engine.h"
 
@@ -33,4 +33,4 @@ private:
     Mix_Chunk* selected = NULL;
 };
 
-#endif // SFX_H
+#endif // MUSIC_H
