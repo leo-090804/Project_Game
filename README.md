@@ -1,11 +1,12 @@
-# MyGame
+<h1> MyGame </h1>
   <p> Flappy Bird </p>
-# Mô tả game
+<h1> Mô tả game </h1>
   <p> Là game Flappy Bird tương tự trên phiên bản quen thuộc đã từng một thời gian nổi lên như một hiện tượng và mang lại thành công cho tác giả.</p>
   <p> Cách chơi đơn giản, sử dụng phím "Space" để nhảy, các phím điều hướng để chọn Menu.</p>
-# Quá trình phát triển 
+<h1> Quá trình phát triển </h1> 
   <p> Git tham khảo "https://github.com/Ducanger/Flappy-Doge-SDL2"</p>
   <p> Chức năng của các phần trong source code </p>
+  
     - background.cpp và background.h: hình thành nền cho game, lặp lại liên tục hình nền trong thời gian game hoặt động.
     - backup.cpp: fill màu nền trước khi có background.
     - base.h và base.cpp: đây là phần giới hạn khung hình bay của chim ở phía dưới
@@ -25,4 +26,5 @@
     "sprites\scoresheet.png"
     - selection.h và selection.cpp: điều hình hình chim trong phần chọn main menu
     - text.h và text.cpp: hiện tùy chọn ở main menu
+    
   <p> Hình ảnh và âm thành được lấy tại "https://github.com/samuelcust/flappy-bird-assets" </p>
