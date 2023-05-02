@@ -1,9 +1,8 @@
 # MyGame
   ## Flappy Bird
 # Mô tả game
-  ## Là game Flappy Bird tương tự trên phiên bản quen thuộc đã từng một thời gian nổi lên như một hiện tượng 
-  và mang lại thành công cho tác giả.
-  ## Cách chơi đơn giản, sử dụng phím "Space" để nhảy, các phím điều hướng để chọn Menu.
+  <p> Là game Flappy Bird tương tự trên phiên bản quen thuộc đã từng một thời gian nổi lên như một hiện tượng và mang lại thành công cho tác giả.</p>
+  <p> Cách chơi đơn giản, sử dụng phím "Space" để nhảy, các phím điều hướng để chọn Menu.</p>
 # Quá trình phát triển 
   ## Git tham khảo "https://github.com/Ducanger/Flappy-Doge-SDL2"
   ## Chức năng của các phần trong source code
